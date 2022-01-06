@@ -1,0 +1,1111 @@
+
+
+body{
+    
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: url("sust.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    
+}
+
+.video{
+
+   display: none;
+    
+}
+
+[class*="col-"]{
+    width: 100%;
+}
+
+ 
+
+.header{
+
+    padding:20px ;
+    background-color:#4CAF50 ;
+   
+}
+
+.header-img{
+
+    margin-top: -15px;
+    text-align: center;
+}
+
+
+.sust{
+
+    height: 125px;
+    
+}
+
+.header-heading{
+
+    font-family: fantasy;
+    text-transform: capitalize;
+    color: maroon;
+}
+
+.header-heading h1{
+
+    text-align: center;
+    font-size: 24px;
+}
+
+.header-nav{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-nav a{
+
+    color: navajowhite;
+    font-family: fantasy;
+    text-decoration: none;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: gray;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.header-nav a:hover{
+
+    background-color: oldlace;
+    cursor: pointer;
+    color: maroon;
+}
+
+.header::after{
+
+    clear: both;
+    content: '';
+    display: table;
+}
+
+
+ /*header ends*/
+
+/* main starts*/
+
+.main{
+
+    height: 750px;
+}
+
+#search{
+
+    position: relative;
+    left: -100px;
+    top: 74px;
+}
+
+.search{
+
+    width: 80%;
+    padding: 5px;
+    box-sizing: border-box;
+    position: relative;
+    left: 50px;
+    top: 70px;
+    background-color: rgba(255,255,255,0.3);
+    border: 2px solid rgb(0,0,0,0.05);
+    border-radius: 15px;
+    text-align: center;
+    font-family: cursive;
+
+}
+
+
+.search::placeholder{
+
+    color:rgba(0,0,0,0.9) ;
+    
+}
+
+.search:hover{
+
+    cursor: pointer;
+}
+
+.search:focus{
+
+    background-color: rgba(255,255,255,0.7);
+    color:darkred;
+}
+
+.description{
+
+    position: relative;
+    top: 10px;
+    transform: translateY(20%);
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 80%;
+    border: 5px solid rgb(0,0,0,0.5);
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.5);
+    color: black;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+.description p::selection{
+
+    background-color: black;
+    color: white;
+}
+
+.description p::first-letter{
+
+    font-size: 28px;
+    color: brown;
+}
+
+
+.main::after{
+
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* main ends */
+
+/* about me section starts */
+
+.aboutme{
+
+    background-color: gray;
+    position: relative;
+    top: -25px;
+    height: 780px;
+}
+
+.pic{
+
+   text-align: center;
+}
+
+.propic{
+
+    height: 125px;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    transform: translateY(30%);
+}
+
+.about{
+
+    text-align: center;
+}
+
+.aboutme h2{
+
+    text-align: center;
+    font-family: fantasy;
+    color:rgb(7, 7, 7);
+    text-transform: uppercase;
+    position: relative;
+    top: 25px;
+    transform: translateY(100%);
+}
+
+.dotted{
+
+    border-bottom:5px dotted rgba(255,255,255,0.7);
+    border-block-start: none;
+    width: 30%;
+    position: relative;
+    top: 50px;
+}
+
+.about{
+
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.about p{
+
+    color: floralwhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 40px;
+}
+
+.solid{
+
+    border: 1px solid wheat;
+    position: relative;
+    top: 35px;
+}
+
+.about a{
+
+    color: floralwhite;
+    text-decoration: none;
+}
+
+.about a:hover{
+
+    color: maroon;
+}
+
+.about button{
+
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: fantasy;
+    text-transform: capitalize;
+    position: relative;
+    top: 45px;
+    border: 5px solid rgb(0,0,0,0.05);
+    border-radius: 25px;
+    background-color: rgba(255,255,255,0.7);
+
+}
+
+.about button:hover{
+
+    background-color: black;
+    cursor: pointer;
+    color: maroon;
+}
+
+.aboutme::after{
+
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* about me section ends */
+
+/* details section starts */
+
+.details{
+
+    position: relative;
+    top: 50px;
+    
+}
+
+/* card1 design starts*/
+
+.card1{
+
+    position: relative;
+    left: 50px;
+    background-color: rgba(255,255,255,0.3);
+    width: 80%;
+    border: 5px solid rgba(255,255,255,0.3);
+    border-radius: 30px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    float: left;
+    height: 820px;
+    overflow: hidden;
+
+}
+
+.card1:hover{
+
+    position:relative;
+    cursor: grab;
+    transform: scale(1.05);
+    transition: 0.9s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+}
+
+.work-img{
+
+    text-align: center;
+}
+
+.icon1{
+
+    position: relative;
+    top: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+
+}
+
+
+.work-desc{
+
+
+    text-align: center;
+}
+
+.work-desc h2{
+
+    font-family: fantasy;
+    position: relative;
+    top: 15px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.work-desc ol{
+
+
+}
+
+.work-desc ol li{
+
+    list-style-type: none;
+    font-family: cursive;
+    padding: 15px 0px;
+    text-align: justify;
+}
+
+
+.solid1{
+
+    border-bottom: 3px solid wheat;
+    position: relative;
+    left: -10px;
+}
+
+/* card1 design ends*/
+
+/* card2 design starts */
+
+.card2{
+
+    position: relative;
+    top: 50px;
+    left: 50px;
+    background-color: rgba(255,255,255,0.3);
+    width: 80%;
+    border: 5px solid rgba(255,255,255,0.3);
+    border-radius: 30px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    float: left;
+    height: 820px;
+    
+
+}
+
+.card2:hover{
+
+    position:relative;
+    cursor: grab;
+    transform: scale(1.05);
+    transition: 0.9s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+}
+
+.edu-img{
+
+    text-align: center;
+}
+
+.icon2{
+
+    position: relative;
+    top: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+
+}
+
+
+.edu-desc{
+
+
+    text-align: center;
+}
+
+.edu-desc h2{
+
+    font-family: fantasy;
+    position: relative;
+    top: 15px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.edu-desc ol{
+
+
+}
+
+.edu-desc ol li{
+
+    list-style-type: none;
+    font-family: cursive;
+    padding: 15px 0px;
+    text-align: justify;
+}
+
+.edu-desc ol li a{
+
+    color: black;
+    text-decoration: none;
+
+}
+
+.edu-desc ol li a:hover{
+
+    color: maroon;
+}
+
+
+.solid1{
+
+    border-bottom: 3px solid wheat;
+    position: relative;
+    left: -10px;
+}
+
+/* card2 design ends */
+
+/* card3 design starts */
+
+.card3{
+
+    position: relative;
+    top: 100px;
+    left: 50px;
+    background-color: rgba(255,255,255,0.3);
+    width: 80%;
+    border: 5px solid rgba(255,255,255,0.3);
+    border-radius: 30px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    float: left;
+    height: 820px;
+    
+
+}
+
+.card3:hover{
+
+    position:relative;
+    cursor: grab;
+    transform: scale(1.05);
+    transition: 0.9s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+}
+
+.skill-img{
+
+    text-align: center;
+}
+
+.icon3{
+
+    position: relative;
+    top: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+
+}
+
+
+.skill-desc{
+
+
+    text-align: center;
+}
+
+.skill-desc h2{
+
+    font-family: fantasy;
+    position: relative;
+    top: 15px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.skill-desc ol{
+
+
+}
+
+.skill-desc ol li{
+
+    list-style-type: none;
+    font-family: cursive;
+    padding: 25px 0px;
+    box-sizing: border-box;
+    text-align: justify;
+    position: relative;
+}
+
+.skill-desc ol li::before{
+
+    content: '';
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    border-radius: 15px;
+
+}
+
+
+.skill-desc ol li::after{
+
+    content: '';
+    position: absolute;
+    top: 80px;
+    left: 0;
+    height: 10px;
+    border-radius: 15px;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    transition-duration: 3s;
+
+}
+
+.skill-desc ol li.html::after{
+
+    animation-name: html;
+    
+}
+
+@keyframes html{
+
+   from{
+       width: 0%;
+       background-color: tomato;
+   }
+
+   to{
+       width:90%;
+       background-color: maroon;
+   }
+}
+
+
+
+.skill-desc ol li.css::after{
+
+    animation-name: css;
+    
+}
+
+@keyframes css{
+
+   from{
+       width: 0%;
+       background-color: tomato;
+   }
+
+   to{
+       width:63%;
+       background-color: maroon;
+   }
+}
+
+
+
+.skill-desc ol li.boot::after{
+
+    animation-name:booty;
+    
+}
+
+@keyframes booty{
+
+   from{
+       width: 0%;
+       background-color: tomato;
+   }
+
+   to{
+       width:33%;
+       background-color: maroon;
+   }
+}
+
+
+
+.skill-desc ol li.jquery::after{
+
+    animation-name: jq;
+    
+}
+
+@keyframes jq{
+
+   from{
+       width: 0%;
+       background-color: tomato;
+   }
+
+   to{
+       width:16%;
+       background-color: maroon;
+   }
+}
+
+
+
+.skill-desc ol li.java::after{
+
+    animation-name: java;
+    
+}
+
+@keyframes java{
+
+   from{
+       width: 0%;
+       background-color: tomato;
+   }
+
+   to{
+       width:13%;
+       background-color: maroon;
+   }
+}
+
+
+
+
+.skill-desc ol li.react::after{
+
+    animation-name: react;
+    
+}
+
+@keyframes react{
+
+   from{
+       width: 0%;
+       background-color: tomato;
+   }
+
+   to{
+       width:22%;
+       background-color: maroon;
+   }
+}
+
+
+
+
+.skill-desc ol li.node::after{
+
+    animation-name: node;
+    
+}
+
+@keyframes node{
+
+   from{
+       width: 0%;
+       background-color: tomato;
+   }
+
+   to{
+       width:43%;
+       background-color: maroon;
+   }
+}
+
+
+
+.skill-desc ol li.express::after{
+
+    animation-name: express;
+    
+}
+
+@keyframes express{
+
+   from{
+       width: 0%;
+       background-color: tomato;
+   }
+
+   to{
+       width:31%;
+       background-color: maroon;
+   }
+}
+
+
+
+/* card3 design ends */
+
+.details::after{
+
+    content: '';
+    clear: both;
+    display: table;
+
+}
+
+/* details section ends */
+
+/* contact me section starts */
+
+.contactme{
+
+    position: relative;
+    top: 50px;
+    transform: translateY(25%);
+    background: linear-gradient(to bottom,gray,grey,black,black);
+    padding: 20px;
+    box-sizing: border-box;
+    height: 700px;
+}
+
+
+
+.contactme h2{
+
+    text-align: center;
+    position: relative;
+    top: 30px;
+    text-transform: uppercase;
+    font-family: fantasy;
+
+}
+
+
+.dotted1{
+
+    border-bottom:5px dotted rgba(255,255,255,0.7);
+    border-block-start: none;
+    width: 40%;
+    position: relative;
+    top: 40px;
+
+}
+
+
+/* contact form starts */
+
+.contact-form{
+
+    text-align: center;
+    
+}
+
+.name{
+
+    background-color: rgba(255,255,255,0.7);
+    color: black;
+    position: relative;
+    top: 50px;
+    width: 80%;
+    text-align: center;
+    font-family: cursive;
+    border: 3px solid rgba(255,255,255,0.5);
+    border-radius: 15px;
+}
+
+.name::placeholder{
+
+    text-align: center;
+    font-family: cursive;
+}
+
+.name:focus{
+
+    background-color: black;
+    color: white;
+}
+
+.name:hover{
+
+    cursor: pointer;
+}
+
+.email{
+
+    background-color: rgba(255,255,255,0.7);
+    color: black;
+    position: relative;
+    top: 70px;
+    width: 80%;
+    text-align: center;
+    font-family: cursive;
+    border: 3px solid rgba(255,255,255,0.5);
+    border-radius: 15px;
+}
+
+.email::placeholder{
+
+    text-align: center;
+    font-family: cursive;
+}
+
+.email:hover{
+
+    cursor: pointer;
+}
+
+.email:focus{
+
+    background-color: black;
+    color: white;
+}
+
+.comment-box{
+
+    background-color: rgba(255,255,255,0.7);
+    color: black;
+    position: relative;
+    top: 100px;
+    width: 80%;
+    text-align: center;
+    font-family: cursive;
+    border: 3px solid rgba(255,255,255,0.5);
+    border-radius: 15px;
+    resize: none;
+
+}
+
+
+.comment-box::placeholder{
+
+    text-align: center;
+    font-family: cursive;
+}
+
+.comment-box:hover{
+
+   cursor: pointer;
+}
+
+.comment-box:focus{
+
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.submit{
+
+    text-align: center;
+    font-family: fantasy;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color:blanchedalmond;
+    color:black ;
+    height: 40px;
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 50px;
+    position: relative;
+    top: 100px;
+    transform: translateY(50%);
+
+}
+
+.submit:hover{
+
+    cursor: pointer;
+
+}
+
+.submit:focus{
+
+    background-color: burlywood;
+    color: brown;
+}
+
+.reset{
+
+    text-align: center;
+    font-family: fantasy;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: blanchedalmond;
+    color: black;
+    height: 40px;
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 50px;
+    position: relative;
+    top: 100px;
+    transform: translateY(50%);
+}
+
+.reset:hover{
+
+    cursor: pointer;
+
+}
+
+.reset:focus{
+
+    background-color: burlywood;
+    color: brown;
+}
+
+
+/* contact form ends */
+
+/* contact bottom starts */
+
+.contact-button{
+
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+
+.contact-button h3{
+
+    text-align: center;
+    position: relative;
+    left: 120px ;
+    top: 130px;
+    transform: translateY(100%);
+    text-transform: uppercase;
+    font-family: fantasy;
+    color: wheat;
+}
+
+#fb{
+
+    color: cornflowerblue;
+    position: relative;
+    left: -180px;
+    top: 200px;
+    font-size: 22px;
+}
+
+#insta{
+
+    color: yellowgreen;
+    position: relative;
+    left: -120px;
+    top: 200px;
+    font-size: 22px;
+}
+
+#yt{
+
+    color: red;
+    position: relative;
+    left: -60px;
+    top: 200px;
+    font-size: 22px;
+}
+
+
+/* contact bottom ends */
+
+.contactme::after{
+
+    content: '';
+    clear: both;
+    display: table;
+
+}
+
+
+/* contact me section ends */
+
+/* footer section starts */
+
+.footer{
+
+    position: relative;
+    top: -20px;
+    transform: translateY(50%);
+    background-color: black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.footer-nav{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-nav a{
+
+    background-color: gray;
+    margin: 15px 3px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font-family: fantasy;
+    color: wheat;
+    text-decoration: none;
+}
+
+.footer-nav a:hover{
+
+    background-color: burlywood;
+    color: maroon;
+}
+
+.footer-para{
+
+    color: whitesmoke;
+    text-align: center;
+}
+
+.footer-para p:nth-child(odd){
+    font-family: fantasy;
+    text-transform: uppercase;
+}
+
+.footer-para p:nth-child(even){
+    font-family: fantasy;
+    text-transform: uppercase;
+}
+
+.footer-para p:last-child{
+
+    font-family: cursive;
+    text-transform:lowercase;
+}
+
+.footer-para p span{
+    font-size: 24px;
+    color: brown;
+    cursor: pointer;
+}
+
+.footer::after{
+
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* footer section ends  */
